@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                 displayToast(getString(R.string.action_contact_message));
                 return true;
             default:
-                // Do nothing
+                // Do nothing.
         }
 
         return super.onOptionsItemSelected(item);
